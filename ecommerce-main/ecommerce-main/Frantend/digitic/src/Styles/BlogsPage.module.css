@@ -1,0 +1,23 @@
+
+.Path{
+    margin-left: 45%;
+    margin-top: -3%;
+}
+.Container{
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 2%;
+}
+.Righttop{
+    
+ box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ background-color: white;
+ padding: 15%;
+ width: 350px;
+ height: auto;
+}
+.LeftContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}

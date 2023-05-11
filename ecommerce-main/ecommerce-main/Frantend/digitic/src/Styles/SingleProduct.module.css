@@ -1,0 +1,113 @@
+.Container{
+    display: grid;
+
+    grid-template-columns:repeat(2,1fr);
+    gap:2;
+    margin: 1%;
+    
+    /* box-shadow: 0 0 10px #0000001a; */
+    border-radius:10px;
+    
+    
+}
+
+.rightContainer{
+    box-shadow: 0 0 10px #0000001a;
+    border-radius:10px;
+
+}
+.leftContainer{
+    box-shadow: 0 0 10px #0000001a;
+    border-radius:10px;
+    
+}
+.ZoomImage{
+    box-shadow: 0 0 10px #0000001a;
+    margin-top: 1%;
+   
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin-left: 10%;
+    width: 80%;
+    height: 5%;
+    border-radius:10px;
+    /* opacity: 0% */
+}
+
+.smallimage{
+    box-shadow: 0 0 10px #0000001a;
+    border-radius:10px;
+}
+.price {
+    color:black;
+    font-weight: 600;
+    font-size: 19px;
+    letter-spacing: .3px;
+    line-height: 20px;
+    position: relative;
+    margin: 2px 0 12px;
+}
+.btn1{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding:0 11px;
+}
+.btn2{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;    
+    padding:0 14px;
+}
+.hearticonred{
+    color: red;
+    margin-top:3%;
+    margin-left: 1%;
+}
+.hearticonblack{
+    color:black;
+    margin-top:3%;
+    margin-left: 1%;
+}
+.bottomContainer{
+    margin-top: 5%;
+    width: 100%;
+    /* box-shadow: 0 0 10px #0000001a;    */
+}
+.bottomContainerdes{
+    display: block;
+    /* float: left; */
+    padding: 20px;
+    margin-top: 0;
+    
+    /* width:70% ; */
+    background:white;
+    box-shadow: 0 0 10px #0000001a;
+    border-radius:10px;
+    /* box-shadow: 0 0 10px #0000001a;    */
+}
+.bottomdes{
+    color: #777777;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.Review{
+    margin-top:2%;
+    width: 50%;
+    
+}
+
+@media screen  and (max-width: 984px){
+    .Container{
+        display: grid;
+
+        grid-template-columns:repeat(1,1fr);
+    }
+    /* .Review{
+        
+        width: 50%;
+    } */
+    .bottomContainer{
+        width: 100%;
+    }
+}
